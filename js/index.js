@@ -54,9 +54,10 @@ sc_img_timeline.to(".invite_title", {
 });
 
 sc_img_timeline.to(".img_scroll", {
-  y: -1500,
+  y: -1000,
   duration: 5,
   stagger: 1,
+  opacity: 0.3,
 });
 
 sc_img_timeline.to(".invite_content", {
@@ -80,21 +81,26 @@ const sc_card_timeline = gsap.timeline({
 sc_card_timeline.to(".card1", {
   y: 0,
   duration: 3,
+  opacity: 1,
 });
 
 sc_card_timeline.to(".card2", {
   y: 0,
   duration: 3,
+  opacity: 1,
 });
 sc_card_timeline.to(".card3", {
   y: 0,
   duration: 3,
+  opacity: 1,
 });
 sc_card_timeline.to(".card4", {
   y: 0,
   duration: 3,
+  opacity: 1,
 });
 sc_card_timeline.to(".card5", {
   y: 0,
   duration: 3,
+  opacity: 1,
 });

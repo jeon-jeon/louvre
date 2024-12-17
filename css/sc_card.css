@@ -36,43 +36,48 @@
   width: 20%;
   position: absolute;
   z-index: 1;
-  top: 45%;
-  left: 33%;
+  top: 500px;
+  left: 650px;
   transform: rotate(-20deg) translateY(200%);
+  opacity: 0;
 }
 
 .card2 {
   width: 20%;
   position: absolute;
   z-index: 2;
-  top: 40%;
-  left: 40%;
+  top: 500px;
+  left: 750px;
   transform: rotate(5deg) translateY(200%);
+  opacity: 0;
 }
 
 .card3 {
   width: 20%;
   position: absolute;
   z-index: 3;
-  top: 50%;
-  left: 40%;
+  top: 350px;
+  left: 700px;
   transform: translateY(200%);
+  opacity: 0;
 }
 
 .card4 {
   width: 20%;
   position: absolute;
   z-index: 4;
-  top: 40%;
-  left: 40%;
+  top: 300px;
+  left: 700px;
   transform: translateY(200%);
+  opacity: 0;
 }
 
 .card5 {
   width: 20%;
   position: absolute;
   z-index: 4;
-  top: 30%;
-  left: 50%;
+  top: 250px;
+  left: 800px;
   transform: rotate(12deg) translateY(200%);
+  opacity: 0;
 }
